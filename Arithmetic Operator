@@ -1,0 +1,22 @@
+# My-ninth-program
+
+Write a C program to do an Arithmetic Operators.
+Input Format: 
+Input consists of two integers 
+Output Format:
+Output consist of integers
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin  >> a>> b;
+    cout <<a<<  "+"  << b << "=" <<  (a+b)<< endl;
+    cout <<a<<  "-"  << b <<  "=" <<  (a-b)<< endl;
+    cout <<a<<  "*" << b << "=" <<  (a*b)<< endl;
+    cout <<a<<  "/"  << b << "=" <<  (a/b)<< endl;
+    cout <<a<<  "%" << b << "=" <<  (a%b) <<endl;
+    return 0;
+}
